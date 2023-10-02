@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <input type="text" id="nameArea" placeholder="Enter your Name">
+            <div class="villiansArea">
+                <label for="villians">Choose Villians</label>
+                <div class="villians">
+               <input type="radio" id="draculacheck" name="villians">
+                <label for="dracula">Dracula</label>
+                <input type="radio" id="witchcheck" name="villians">
+                <label for="witch">Witch</label>
+                <input type="radio" id="witcher" name="villians">
+                <label for="witchercheck">Witcher</label>
+                </div>
+                <button id="start">Start Battle</button>
+            </div>
+        </div>
+
+        <div class="second">
+            <h1 style="text-align: center;"></h1>
+            <h1 id="welcome"></h1>
+            <h1 id="question"></h1>
+            <input type="text" id="answerArea" style="display: none;">
+            <button id="next" style="display: none;">Next</button>
+            <h1 id="finalResult"></h1>
+            <button id="showFinal" style="display: none;">Result</button>
+            <h2 id="finalScore"></h2>
+            <button id="retry" style="display: none;">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
